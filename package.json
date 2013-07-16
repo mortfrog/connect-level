@@ -1,16 +1,12 @@
 {
-  "name": "connect-level",
-  "version": "0.0.4",
+  "name": "connect-level-custom",
+  "version": "0.0.5",
   "description": "A levelDB session store for Connect",
   "main": "lib/connect-level.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha -R spec --compilers coffee:coffee-script test.coffee",
     "prepublish": "cake build",
     "pretest": "cake build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/davidbanham/connect-level.git"
   },
   "author": "david@banham.id.au",
   "license": "BSD",
@@ -28,6 +24,5 @@
     "mocha": "~1.9.0",
     "connect": "~2.7.5"
   },
-  "readmeFilename": "README.md",
-  "gitHead": "36a4bb2b44c49b01d35f54fa73f4f860a3fa7f27"
+  "readmeFilename": "README.md"
 }
